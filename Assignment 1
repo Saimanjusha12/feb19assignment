@@ -1,4 +1,4 @@
-def myprime(n):
+  def myprime(n):                                                                                                                            nes (23 slocdef myprime(n):
     for i in range(2,n):
         if n%i==0:
             return False
@@ -13,3 +13,15 @@ for i in range(t):
         if myprime(i):
             c=c+1
     print(c)
+    
+ output::
+    
+    Input (stdin)
+
+2
+1 100
+1 10000
+Your Output (stdout)
+
+25
+1229
